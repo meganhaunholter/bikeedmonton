@@ -1,0 +1,752 @@
+html{
+    line-height: 0;
+}
+body {
+    width: 100%;
+}
+h1{
+color: #FFF;
+text-align: center;
+font-family: Arimo;
+font-size: 63px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+
+}
+
+h2{
+color: #000;
+font-family: Arimo;
+font-size: 43px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+h3{
+color: #133978;
+text-align: center;
+font-family: Arimo;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+h4{
+color: #FFF;
+text-align: center;
+font-family: Arimo;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+p{
+color: #FFF;
+font-family: Arimo;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+
+
+
+
+/*Navigation*/
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.searchbar{
+    display: flex;
+    width: 331px;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #204B93;
+    justify-content: end;
+}
+.nav-bar{
+  background-color: #133978;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200px;
+  font-style: normal;
+  color: white;
+  display: flex;
+  padding: 13px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listitemsorange a{
+    color: #F28B24;
+    font-family: Arimo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.listitemswhite a{
+    color: white;
+    font-family: Arimo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+#top-nav li {
+    list-style-type: none;
+    margin-right: 24px;
+    padding-bottom: 4px;
+    display: inline;
+}
+
+/*Hero*/
+.hero {
+    position: relative;
+    height: 606px;
+    width: 1728;
+    background: url('../Images/bikeshero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.gradient{
+    background: radial-gradient(50% 50% at 50% 50%, #242424 0%, rgba(36, 36, 36, 0.00));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero h1 {
+    padding-top: 150px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.btn1 {
+    display: inline-block;
+  
+    background-color: #F28B24;
+    color: white;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arimo;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 21px;
+    padding: 13px 53px 12px 51px;
+    margin: 35px 0px 212px auto;
+
+    
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 13px 53px 12px 51px;
+    background-color:#133978;
+    color: white;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arimo;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 21px;
+    margin: 35px 0px 212px 131px;
+}
+
+.btn3 {
+    display: inline-block;
+    padding: 13px 53px 12px 51px;
+    background-color:#133978;
+    color: white;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arimo;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 21px;
+    margin: 35px auto 212px 131px;
+}
+
+/* Newest Addtions*/
+
+.h2{
+    justify-content: center;
+    justify-self: center;
+}
+.h2margin{
+    margin-top: 76px;
+    margin-bottom: 0;
+}
+
+.h2padding{
+    padding-left: 70px;
+}
+
+.pblack{
+    color: #000;
+    text-align: center;
+    font-family: Arimo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px;
+}
+
+/*Refurbished Bikes*/
+.margintop{
+    text-align: left;
+}
+.lightorangebtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #EDA864;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arimo;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 21px;
+    padding: 13px 34px 12px 36px;
+    margin: 35px 0px 108px 80px;   
+}
+
+.orangebtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F28B24;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arimo;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 21px;
+    padding: 13px 34px 12px 36px;
+    margin: 35px 0px 108px 80px;   
+}
+
+
+
+/*All Shopping*/
+
+.shopitemsflow{
+    display: flex;
+    flex-direction: column;
+}
+
+.shopbar{
+    background-color:#F6F6F6;
+    padding: 16px 2px;
+    margin-bottom: 110px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.shopmargintop{
+    margin-top: 50px;
+    width: 100%;
+   height: 14vw;
+   object-fit: contain;
+
+}
+
+
+.imgdropshadow{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.shopbartext{
+    color: black;
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+
+}
+
+.underline{
+    text-decoration: underline;
+    font-family: Arimo;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin: 0;
+
+    
+}
+.bigbuttonwrap{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.buttonrow{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin: 0px 60px;
+}
+
+
+/*Footer*/
+
+.footerflex{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    flex: 1;
+    padding: 68px 0 114px 0;
+}
+
+.footerflex2{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding-left: 10px;
+
+}
+
+.footerrow{
+    display: flex;
+    flex-direction: row;
+    background-color: #133978;
+    border-top: 16px solid #F28B24;
+    box-sizing: border-box;
+}
+.footerorange{
+color: #F28B24;
+font-family: Arimo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 14px;
+list-style-type: none;
+}
+
+.footerorange2{
+color: #F28B24;
+font-family: Arimo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 60px;
+list-style-type: none;
+}
+
+.footerorange3{
+color: #F28B24;
+font-family: Arimo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 100px;
+padding-left: 150px;
+list-style-type: none;
+}
+
+.footerorange4{
+color: #F28B24;
+font-family: Arimo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 50px;
+padding-bottom: 6px;
+list-style-type: none;
+}
+
+
+.footeraddress{
+color: #F28B24;
+font-family: Arimo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 52px;
+padding-left: 150px;
+list-style-type: none;
+}
+
+
+.footerwhite{
+color: #FFF;
+font-family: Arimo;
+font-size: 15px;
+padding-top: 4px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+list-style-type: none;
+margin: 0;
+}
+
+.footerwhite2{
+color: #FFF;
+font-family: Arimo;
+font-size: 15px;
+padding-top: 4px;
+padding-left: 150px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+list-style-type: none;
+margin: 0;
+}
+
+.footerwhite3{
+color: #FFF;
+font-family: Arimo;
+font-size: 15px;
+padding-top: 4px;
+padding-left: 5px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+list-style-type: none;
+margin: 0;
+}
+.lastword{
+    padding-bottom: 45px;
+}
+
+.firstword{
+    padding-top: 10px;color: #FFF;
+    font-family: Arimo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-type: none;
+    margin: 0;
+}
+
+.socialmediaicons{
+    padding-left: 10px;
+}
+.whiteline{
+    padding-top: 50px;
+
+}
+
+.hidden-desktop {
+    display: none;
+}
+
+/*---Media Queries---*/
+
+/* Smartphone */
+
+@media screen and (max-width: 1420px) {
+    .hidden-mobile {
+    display: none;
+    }
+
+    .hidden-desktop {
+    display: flex;
+    }
+
+
+
+/*Nav Bar*/
+
+.menu-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.hamburgeralign{
+    display:flex;
+    display: column;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+/*Hero*/
+
+.hero {
+    position: relative;
+    height: 390px;
+    width: 283;
+    background: url('../Images/bikeshero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+.gradient{
+    background: radial-gradient(50% 50% at 50% 50%, #242424 0%, rgba(36, 36, 36, 0.00));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 5;
+    left: 50;
+    z-index: 1;
+}
+.hero h1{
+    font-size: 34px;
+    padding-top: 120px;
+
+
+}
+
+.hero p{
+    font-size: 16px;
+    justify-content: center;
+
+}
+
+.btn1 {
+    display: none
+
+    
+}
+
+.btn2 {
+    display: none
+}
+
+.btn3 {
+    display: none
+}
+
+/*Newest Addtions*/
+h2{
+    font-size: 20px;
+    padding-left: 15px;
+
+
+}
+
+
+.mobilebuttons{
+    padding-left: 30px;
+}
+
+   .hidden-bikes{
+        display: none;
+    }
+
+.h2margin{
+    margin-top: 256px;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+.h2margin h2{
+    font-size: 29px;
+    margin-left: 40px;
+
+}
+
+.h2padding{
+    padding-left: 12px;
+}
+.center{
+    justify-self: center;
+}
+
+.pblack{
+    font-size: 16px;
+    text-align: left;
+  
+}
+
+/*Refurbished Bikes*/
+
+.margintop h2{
+    font-size: 29px;
+
+}
+
+.margintop{
+    margin-left: 25px;
+}
+
+.shopmargintop{
+    margin-top: 50px;
+    width: 100%;
+   height: 40vw;
+   object-fit: contain;
+
+}
+
+
+/*Footer*/
+
+.footerrow-mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: #133978;
+    border-top: 16px solid #F28B24;
+    box-sizing: border-box;
+}
+
+.footerflex-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    padding: 68px 24px 20px 24px;
+}
+
+.footerflex-mobile ul{
+    padding-left: 0px;
+
+}
+
+
+
+
+
+.footerorange{
+    font-size: 14px;
+}
+
+.footerflex{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerflex2{
+    display: flex;
+    flex-direction: row;
+}
+
+.whiteline{
+    padding: 0px 20px;
+    height: 200px;
+}
+
+
+.footerwhite3{
+color: #FFF;
+font-family: Arimo;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+text-transform: capitalize;
+flex: 2;
+}
+
+.footerwhite2{
+    padding-left: 0px;
+}
+
+.menu
+
+
+
+.footernav{
+    flex: 1;
+    margin-top: 0px;
+
+}
+
+.menu-logofooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: -10px;
+    width: 80%;
+}
+.sociallogos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90px;
+    align-items: end;
+    align-content: end;
+    gap: 19px;
+
+}
+
+.socialmediaicons{
+    padding-left: 0px;
+}
+
+}
+
+
+

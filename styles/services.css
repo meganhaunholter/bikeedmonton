@@ -1,0 +1,762 @@
+/*Text Styles*/
+
+.tempbackground{
+	background-color: #F6F6F6;
+	background
+}
+html{
+    line-height: 0;
+}
+body {
+    width: 100%;
+}
+h1{
+color: #FFF;
+text-align: center;
+font-family: Arimo;
+font-size: 63px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+h2{
+color: #000;
+font-family: Arimo;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+h3{
+color: #FFF;
+font-family: Arimo;
+font-size: 43px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+h4{
+color: #FFF;
+font-family: Arimo;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+h5{
+color: #133978;
+font-family: Arimo;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+p{
+color: #000;
+font-family: Arimo;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+button{
+color: #FFF;
+font-family: Arimo;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 7px;
+background: #F28B24;
+border-style: none;
+width: 202px;
+height: 51px;
+}
+
+
+
+/*Navigation*/
+
+.menu-logo {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.searchbar{
+    display: flex;
+    width: 331px;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #204B93;
+    justify-content: end;
+}
+.nav-bar{
+  background-color: #133978;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200px;
+  font-style: normal;
+  color: white;
+  display: flex;
+  padding: 13px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listitemsorange a {
+    color: #F28B24;
+    font-family: Arimo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.listitemswhite a{
+    color: white;
+    font-family: Arimo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+#top-nav li {
+    list-style-type: none;
+    margin-right: 24px;
+    padding-bottom: 4px;
+    display: inline;
+}
+
+.h5{
+	text-align: center;
+}
+
+
+/*Hero*/
+.hero {
+    position: relative;
+    height: 606px;
+    width: 1728;
+    background: url('../Images/serviceshero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.gradient{
+    background: radial-gradient(50% 50% at 50% 50%, #242424 0%, rgba(36, 36, 36, 0.00));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.hero h1 {
+    padding-top: 40px;
+    line-height: 0;
+
+}
+
+.hero p {
+    margin-bottom: 20px;
+    font-size: 19px;
+    text-align: center;
+    color: white;
+
+}
+
+/*Rent a Mechanic*/
+
+.rentamechanic{
+    display: flex;
+    flex: row;
+    margin-top: none;
+    flex: 5;
+     margin-top: 125px;
+}
+
+
+
+.background{
+    box-sizing: border-box;
+    padding-left: 72px;
+    padding-right: 82px;
+    width: 40%;
+    padding-bottom: 69px;
+
+}
+
+
+.mechanicimg{
+     background: url('../Images/rentmechanicimg.jpg') no-repeat center center/cover;
+     width: 100%;
+     height: auto;
+     margin-top: 40px;
+     gap: 20px;
+}
+
+.rentamechanic button{
+    margin-top: 49px;
+}
+
+/*Explore Services*/
+
+.bluebackground{
+    width: 100%;
+    height: 893px;
+    background: #133978;
+    margin-top: 75px;
+}
+
+.h3{
+    padding-top: 87px;
+    padding-left: 189px;
+}
+
+
+
+.explore{
+    display: flex;
+    flex: column;
+    padding: 0;
+}
+
+.exploresections{
+    display: block;
+    color: white;
+}
+
+.exploresections img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.box1{
+    display: block;
+    flex: 10;
+}
+
+
+.img1padding{
+    padding: 70px 50px 25px 186px;
+}
+
+.img2padding{
+    padding: 70px 50px 25px 0px;
+}
+
+
+.img3padding{
+    padding: 70px 186px 25px 0px;
+}
+
+.bikeracksimg{
+     background: url('../Images/bikeracks.jpg') no-repeat center center/cover;
+     width: 719px;
+    height: 525px;
+    display: block;
+    flex: 5;
+     margin-top: 125px;
+}
+
+.communityimg{
+     background: url('../Images/community.jpg') no-repeat center center/cover;
+     display: block;
+     width: 588px;
+     height: 516px;
+     justify-content: right;
+     margin-bottom: 125px;
+     margin-top: 125px;
+}
+
+
+/*Footer*/
+
+.footerflex{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    flex: 1;
+    padding: 68px 0 114px 0;
+}
+
+.footerflex2{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding-left: 10px;
+
+}
+
+.footerrow{
+    display: flex;
+    flex-direction: row;
+    background-color: #133978;
+    border-top: 16px solid #F28B24;
+    box-sizing: border-box;
+}
+.footerorange{
+color: #F28B24;
+font-family: Arimo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 14px;
+list-style-type: none;
+}
+
+.footerorange2{
+color: #F28B24;
+font-family: Arimo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 60px;
+list-style-type: none;
+}
+
+.footerorange3{
+color: #F28B24;
+font-family: Arimo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 100px;
+padding-left: 150px;
+list-style-type: none;
+}
+
+.footerorange4{
+color: #F28B24;
+font-family: Arimo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 50px;
+padding-bottom: 6px;
+list-style-type: none;
+}
+
+
+.footeraddress{
+color: #F28B24;
+font-family: Arimo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 52px;
+padding-left: 150px;
+list-style-type: none;
+}
+
+
+.footerwhite{
+color: #FFF;
+font-family: Arimo;
+font-size: 15px;
+padding-top: 4px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+list-style-type: none;
+margin: 0;
+}
+
+.footerwhite2{
+color: #FFF;
+font-family: Arimo;
+font-size: 15px;
+padding-top: 4px;
+padding-left: 150px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+list-style-type: none;
+margin: 0;
+}
+
+.footerwhite3{
+color: #FFF;
+font-family: Arimo;
+font-size: 15px;
+padding-top: 4px;
+padding-left: 5px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+list-style-type: none;
+margin: 0;
+}
+.lastword{
+    padding-bottom: 45px;
+}
+
+.firstword{
+    padding-top: 10px;color: #FFF;
+    font-family: Arimo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-type: none;
+    margin: 0;
+}
+
+.socialmediaicons{
+    padding-left: 10px;
+}
+.whiteline{
+    padding-top: 50px;
+
+}
+
+
+.hidden-desktop {
+    display: none;
+}
+
+/*---Media Queries---*/
+
+/* Smartphone */
+
+@media screen and (max-width: 1420px) {
+    .hidden-mobile {
+    display: none;
+    }
+
+    .hidden-desktop {
+    display: flex;
+    }
+
+
+/*Nav Bar*/
+
+.menu-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.hamburgeralign{
+    display:flex;
+    display: column;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+/*Hero*/
+
+.hero{
+    width: 390px;
+    height: 270px;
+    overflow: hidden;
+
+}
+
+.hero h1{
+    font-size: 34px;
+    padding-top: 0;
+}
+
+.hero p{
+    font-size: 14px;
+}
+
+.gradient{
+    background: radial-gradient(50% 50% at 50% 50%, #242424 0%, rgba(36, 36, 36, 0.00));
+    width: 200%;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    left: -90%;
+    z-index: 1;
+
+}
+
+.herowrap{
+    position: relative;
+    z-index: 2;
+}
+
+.relative{
+    display: relative;
+}
+
+
+/*Rent a Mechanic*/
+
+.rentamechanic{
+    display: flex;
+    flex: row;
+    margin-top: 30px;
+
+}
+
+
+
+.background{
+    box-sizing: border-box;
+    padding-left: 72px;
+    padding-right: 82px;
+    width: 40%;
+    padding-bottom: 69px;
+
+}
+
+.mechanicimg{
+     background: none ;
+ }
+
+.rentamechanic button{
+    margin-top: 20px;
+    font-size: 17px;
+    width: 172px;
+    height: 39px;
+    border-radius: 13px;
+    padding-left: 10px;
+}
+
+.rentamechanic h2{
+    font-size: 29px;
+    padding-left: 10px;
+
+}
+
+.rentamechanic p{
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+
+}
+
+.background{
+    box-sizing: border-box;
+    padding-left: 35px;
+    padding-right: 0px;
+    width: auto;
+    padding-bottom: 0px;
+
+}
+.h3{
+    font-size: 19px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.bluebackground{
+    width: 100%;
+    height: 545px;
+    background: #133978;
+    margin-top: 30px;
+}
+
+.img1padding{
+    padding: 20px 50px 25px 50px;
+}
+
+.img2padding{
+    padding: 20px 50px 25px 0px;
+}
+
+.exploresections img{
+    width: 258px;
+    height: 258px;
+    object-fit: cover;
+}
+
+.exploresections p{
+    font-size:16px ;
+}
+
+.exploresections button{
+    width: 172px;
+    height: 39px;
+    font-size: 17px;
+}
+
+.bikeracksimg{
+     background: url('../Images/bikeracks.jpg') no-repeat center center/cover;
+     width: 242px;
+    height: 215px;
+    display: block;
+    flex: 8;
+    margin-left: 20px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.communityimg{
+     background: url('../Images/community.jpg') no-repeat center center/cover;
+     display: block;
+     width: 100%;
+     height: 390px;
+     justify-content: right;
+     margin-bottom: 125px;
+     flex: 10;
+     margin-left: 20px;
+     margin-top: 200px;
+     margin-bottom: 126px;
+
+}
+
+.box1 p{
+    margin-right: 50px;
+}
+
+
+
+/*Footer*/
+
+.footerrow-mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: #133978;
+    border-top: 16px solid #F28B24;
+    box-sizing: border-box;
+}
+
+.footerflex-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    padding: 68px 24px 20px 24px;
+}
+
+.footerflex-mobile ul{
+    padding-left: 0px;
+
+}
+
+
+
+
+
+.footerorange{
+    font-size: 14px;
+}
+
+.footerflex{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerflex2{
+    display: flex;
+    flex-direction: row;
+}
+
+.whiteline{
+    padding: 0px 20px;
+    height: 200px;
+}
+
+
+.footerwhite3{
+color: #FFF;
+font-family: Arimo;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+text-transform: capitalize;
+flex: 2;
+}
+
+.footerwhite2{
+    padding-left: 0px;
+}
+
+.menu
+
+
+
+.footernav{
+    flex: 1;
+    margin-top: 0px;
+
+}
+
+.menu-logofooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: -10px;
+    width: 80%;
+}
+.sociallogos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90px;
+    align-items: end;
+    align-content: end;
+    gap: 19px;
+
+}
+
+.socialmediaicons{
+    padding-left: 0px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
